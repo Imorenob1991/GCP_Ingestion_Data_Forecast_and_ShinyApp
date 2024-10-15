@@ -17,3 +17,5 @@ This repository contains a project for ingesting data from Google Cloud Platform
 
 - Which countries have the highest participation in Chile's maritime break bulk imports?
 - R: The country with the highest participation is Argentina, accounting for 23.85% of total imports, and gaining 7 percentage points (PPT) from 2018 to the present
+
+    <img width="729" alt="Screenshot 2024-10-15 at 23 55 26" src="https://github.com/user-attachments/assets/a2bab8d9-77c1-4c3e-a11b-347fc5c34fc4">
