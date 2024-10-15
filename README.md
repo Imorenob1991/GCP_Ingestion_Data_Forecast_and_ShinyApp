@@ -1,4 +1,4 @@
-# GCP_Ingest_Data_Forecast_and_ShinyApp
+# GCP_Ingestion_Data_Forecast_and_ShinyApp
 This repository contains a project for ingesting data from Google Cloud Platform (GCP) into R, performing multiple time series models, and evaluating and visualizing the results. Finally, the best model (SARIMA) is developed in an interactive Shiny App.
 
 # 1. Import the Data Directly from Google Cloud Platform (The data must be already uploaded into BigQuery in Google Cloud Platform)
