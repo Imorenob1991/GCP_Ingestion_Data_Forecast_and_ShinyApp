@@ -129,7 +129,7 @@ autoplot(rem_series)
 ### Finally, measure the strength of the trend and the seasonality
 
 trend_strenght <- max(0,1-((var(rem_series)/(var(rem_series+trend_series)))))
-### Trend Strength: 22% - Week (Represent that only the 33% of the variance can be attributed to the trend)
+### Trend Strength: 22% - Week (Represent that only the 22% of the variance can be attributed to the trend)
 
 seasonal_strenght <- max(0,1-((var(rem_series)/(var(rem_series+seasonal_series)))))
 ### Trend Strength: 20% - Week (Represent that only the 19% of the variance can be attributed to the trend)
