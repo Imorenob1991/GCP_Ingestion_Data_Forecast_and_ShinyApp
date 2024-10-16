@@ -1,4 +1,4 @@
-# Projecto: Break bulk Historical Analysis and Forecast Estimation
+# Project: Break bulk Historical Analysis and Forecast Estimation
 ## Sector: Maritime Port.
 ## Objective: Import data from Google Cloud Platform into R, generate a forecast, and display the outcome in a Shiny application
 
