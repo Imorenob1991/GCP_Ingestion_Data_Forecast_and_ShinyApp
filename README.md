@@ -24,11 +24,11 @@ This repository contains a project for ingesting data from Google Cloud Platform
 
 - We train the data with observations and then we test with real data, and finally measure Errors. (75 Months of training and 4 of Testing)
 - We applied the following models:
-1. Single Exponential Smoothing (SES): A basic time series model that smooths the data by applying exponentially decreasing weights.
-2. Holt’s Linear Trend Model: A method that extends SES by including a linear trend component to account for changes in level and trend over time.
-3. Holt-Winters Model: An extension of Holt’s model that adds seasonality to the forecast, allowing it to model both trend and seasonal components.
+1. Single Exponential Smoothing (SES): A basic time series model that works with stationary data, do not identify patrons like trend and seasonality.
+2. Holt’s Model: A method that extends SES capturing the trend of the data additionally to the level.
+3. Holt-Winters Model: An extension of Holt’s Model with the incorporation of seasonal factors and parámeters.
 4. ETS (Error, Trend, Seasonality): A comprehensive exponential smoothing method that automatically selects the best configuration of error, trend, and seasonality components.
-5. ARIMA (AutoRegressive Integrated Moving Average): A widely used forecasting method that captures autocorrelations in the data, providing robust results for stationary series.
+ 5. ARIMA (AutoRegressive Integrated Moving Average ) is a widely used model for non-seasonal data. It captures the moving average of the errors (MA) and the autoregression (AR) of the data based on previous observations, along with differencing (I) to make the data stationary."
 6. SARIMA (Seasonal ARIMA): An extension of ARIMA that incorporates seasonal differencing to account for periodic fluctuations in the data.
    
 - The results of the models are the following:
